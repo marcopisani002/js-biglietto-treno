@@ -1,3 +1,7 @@
+const specEx = confirm (" Il prezzo del biglietto è definito in base ai km (0.21 €/km) \n - E' applicato uno sconto del 20% per i minorenni \n - E' applicato uno sconto del 40% per gli over 65.\n PREMERE 'OK' PER PROSEGUIRE")
+
+
+
 const kmTreno = parseInt(prompt("Inserisca il numero di km che vuole percorrere"));
 console.log("Chilometraggio inserito:", kmTreno);
 console.log("Tipologia:", typeof kmTreno);
